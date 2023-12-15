@@ -1,0 +1,9 @@
+def fun(klist, pos1, pos2):
+    klist[pos1], klist[pos2] = klist[pos2], klist[pos1]
+    return klist
+
+
+testlist = [23, 14, 17, 89, 78]
+pos1, pos2 = 1, 3
+
+print(fun(testlist, pos1 - 1, pos2 - 1))
