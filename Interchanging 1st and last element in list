@@ -1,0 +1,8 @@
+def fun(klist):
+    klist[0], klist[-1] = klist[-1], klist[0]
+    return klist
+
+
+klist = [12, 23, 89, 78, 98, 78]
+print(fun(klist))
+
