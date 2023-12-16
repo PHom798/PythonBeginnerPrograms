@@ -1,0 +1,15 @@
+string = 'amaama'
+half = int(len(string)/2)
+
+firststring = string[:half]
+secondstring = string[half:]
+
+if firststring == secondstring:
+    print("The string is symmetrical.")
+else:
+    print("The string is not symmetrical.")
+
+if firststring == secondstring[::-1]:  #''.join(reversed(secondstring))
+    print("The string is palindrome.")
+else:
+    print("The string is not palindrome")
