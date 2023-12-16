@@ -1,0 +1,9 @@
+string = 'Hom1240Pathak1240'
+
+# Create a translation table using dictionary comprehension
+translation_table = {ord(i): None for i in '1240'}
+
+# use translation table to remove the specified character from the string
+result = string.translate(translation_table)
+
+print(result)
