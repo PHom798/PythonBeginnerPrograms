@@ -1,0 +1,7 @@
+from collections import OrderedDict
+
+dict = {'raju': '2', 'kishan': '3', 'sanjeev': '3', 'lambu': '20', 'suraj': 32}
+
+dict1 = OrderedDict(sorted(dict.items()))
+
+print(dict1)
