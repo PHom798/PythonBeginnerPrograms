@@ -1,0 +1,6 @@
+my_dict = {'banana': 3, 'apple': 1, 'orange': 2, 'grape': 4}
+
+# sort the dictionary by keys
+sorted_dict = dict(sorted(my_dict.items()))
+
+print(sorted_dict)
