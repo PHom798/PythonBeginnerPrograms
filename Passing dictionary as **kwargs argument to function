@@ -1,0 +1,12 @@
+def display_user_info(**user_data):
+    for key, value in user_data.items():
+        print(f"{key}:{value}")
+
+user_data = {
+    'name': 'Hom Pathak',
+    'age': '22',
+    'country': 'Nepal',
+    'Email': 'coolmax17787@gmail.com'
+}
+
+display_user_info(**user_data)
