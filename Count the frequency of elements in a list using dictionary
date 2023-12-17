@@ -1,0 +1,17 @@
+def count_frequencies(input_list):
+    frequency_dict = {}
+
+    for element in input_list:
+        if element in frequency_dict:
+            frequency_dict[element] += 1
+        else:
+            frequency_dict[element] = 1
+
+    return frequency_dict
+
+
+input_list = [1, 1, 1, 1, 1, 2, 3, 3, 3, 4, 4, 4, 4, 7, 8, 7, 7, 8, 7, 9, 7, 0, 0, 7]
+result_list = count_frequencies(input_list)
+
+for key, value in result_list.items():
+    print(f"{key}:{value}")
