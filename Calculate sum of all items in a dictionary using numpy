@@ -1,0 +1,12 @@
+import numpy as np
+
+# Sample dictionary
+my_dict = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+
+# Convert dictionary values to a NumPy array
+values_array = np.array(list(my_dict.values()))
+
+# Calculate the sum using numpy.sum
+sum_of_values = np.sum(values_array)
+
+print(f"The sum of all items in the dictionary is: {sum_of_values}")
