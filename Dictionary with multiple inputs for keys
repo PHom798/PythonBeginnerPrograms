@@ -1,0 +1,23 @@
+# Creating a dictionary with multiple inputs for keys
+Multi_data_dict = {
+    (1, "kishan", "pathak"):{"a":"Hello","b":"HI", "c": 32},
+    (2,"Ram", "Paudel"): {"z": "Love", "d":"Nice", "f": 3.33},
+    (3,"Krishna","kandel"): {"x": 2000, "e":"lol", "y": "Teri"},
+    (4): {"g":"moye moye", "n":"lop"}
+
+}
+
+# Accessing the values using the keys
+print(Multi_data_dict[(1, "kishan", "pathak")]["a"])
+print(Multi_data_dict[(2,"Ram", "Paudel")]["f"])
+print(Multi_data_dict[(3,"Krishna","kandel")]["x"])
+print(Multi_data_dict[(4)]["g"])
+
+# Assigning New values to the dictionary
+Multi_data_dict[(1, "kishan", "pathak")]["a"] = {"s": "yoyo", "j": 90};
+Multi_data_dict[(3,"Krishna","kandel")]["e"] = {"u":"oooooo"};
+
+# PRinting new values
+print(Multi_data_dict[(1,"kishan", "pathak")]["a"])
+print(Multi_data_dict[(3,"Krishna","kandel")]["e"])
+
