@@ -1,0 +1,10 @@
+# Merging a dictionary using a single expression
+def Merge(dict1, dict2):
+    result = {**dict1, **dict2}
+    return result
+
+dict1 = {"a": "Kishan", "b":12}
+dict2 = {"c": "Ram", "s": 2.3}
+dict3 = Merge(dict1, dict2)
+
+print(dict3)
