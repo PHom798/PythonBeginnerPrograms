@@ -1,0 +1,16 @@
+import collections
+
+# sets default value 'key not found' to  absent keys
+defd = collections.defaultdict(lambda : 'Key Not Found')
+
+# Initializing the values
+defd['a'] = 3
+
+defd['b'] = 4
+
+# Printing the value associated with a
+print("The value associated with a is :", end=" ")
+print(defd['a'])
+
+print("The value associated with b is :", end = " ")
+print(defd['c'])
