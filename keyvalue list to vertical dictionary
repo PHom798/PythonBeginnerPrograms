@@ -1,0 +1,8 @@
+keyvaluelist = [('a', 2), ('b', 4), ('c', 8)]
+
+# Create a dictionary from the list of key-value pairs
+result_dict = dict(keyvaluelist)
+
+# Print the result
+for key, value in result_dict.items():
+    print(f"{key}: {value}")
