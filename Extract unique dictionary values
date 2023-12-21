@@ -1,0 +1,20 @@
+# sample dictionary
+my_dict = {
+    'a': 10,
+    'b': 20,
+    'c': 10,
+    'd': 30,
+    'e': 20
+}
+
+# initialize an empty set to store unique values
+uni_val = set()
+
+# Iterate through the value of dictionary
+for i in my_dict.values():
+    uni_val.add(i)
+
+# COnvert to the list
+uni_val_list = list(uni_val)
+
+print(f"THe unique values:{uni_val_list}")
